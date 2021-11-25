@@ -6,20 +6,23 @@ function Header() {
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand text-light" href="/">And4Web</a>
-             <ul className="nav me-auto mb-2 mb-lg-0 justify-content-end" >
+            <div style={{float:'right'}}>
+            <ul className="nav me-auto mb-2 mb-lg-0 justify-content-end"  >
                 <li className="nav-item">
-                  <a className="nav-link active text-light" aria-current="page" href="/">About</a>
+                  <a className="nav-link active text-light ms-3 me-3" aria-current="page" href="/">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light" href="/">Projects</a>
+                  <a className="nav-link text-light ms-3 me-3" href="/">Projects</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light" href="/">Services</a>
+                  <a className="nav-link text-light ms-3 me-3" href="/">Services</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light" href="/">Contact</a>
+                  <a className="nav-link text-light ms-3 me-3" href="/">Contact</a>
                 </li>
               </ul>
+            </div>
+             
         </div>         
       </nav>
     </div>
