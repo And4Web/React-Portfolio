@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Header() {
   return (
@@ -9,7 +10,8 @@ function Header() {
             <div style={{float:'right'}}>
             <ul className="nav me-auto mb-2 mb-lg-0 justify-content-end"  >
                 <li className="nav-item">
-                  <a className="nav-link active text-light ms-3 me-3" aria-current="page" href="/">About</a>
+                  <Link to='/' className="nav-link active text-light ms-3 me-3" aria-current="page" ><i className="fas fa-home"/>Home
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link text-light ms-3 me-3" href="/">Projects</a>
