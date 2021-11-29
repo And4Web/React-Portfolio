@@ -16,3 +16,7 @@ a .logo:hover {
   scale: transform(1.5rem);
   color: whitesmoke;
 }
+
+.menu {
+  color: whitesmoke;
+}
