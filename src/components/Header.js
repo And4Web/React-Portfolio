@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 function Header() {
   return (
@@ -10,20 +10,20 @@ function Header() {
             <div style={{float:'right'}}>
               <ul className="nav me-auto mb-2 mb-lg-0 justify-content-end"  >
                   <li className="nav-item">
-                    <Link to='/' className="nav-link active text-light ms-3 me-3" aria-current="page" ><i className="fas fa-home"/>Home
-                    </Link>
+                    <a href='/' className="nav-link active text-light ms-3 me-3"><i className="fas fa-home"/>Home
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <Link to='/skills' className="nav-link active text-light ms-3 me-3" aria-current="page" ><i className="fas fa-tools"/>Skills
-                    </Link>
+                    <a href='/skills' className="nav-link active text-light ms-3 me-3"><i className="fas fa-tools"/>Skills
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <Link to='/projects' className="nav-link active text-light ms-3 me-3" aria-current="page" ><i className="fas fa-tasks"/>Projects
-                    </Link>
+                    <a href='/projects' className="nav-link active text-light ms-3 me-3" ><i className="fas fa-tasks"/>Projects
+                    </a>
                   </li>
                   <li className="nav-item">
-                    <Link to='/contact' className="nav-link active text-light ms-3 me-3" aria-current="page" ><i className="fas fa-phone"/>Contact
-                    </Link>
+                    <a href='/contact' className="nav-link active text-light ms-3 me-3"><i className="fas fa-phone"/>Contact
+                    </a>
                   </li>
               </ul>
             </div>
