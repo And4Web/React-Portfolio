@@ -14,13 +14,16 @@ function Header() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light ms-3 me-3" href="/">Projects</a>
+                  <Link to='/' className="nav-link active text-light ms-3 me-3" aria-current="page" ><i className="fas fa-tools"/>Skills
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light ms-3 me-3" href="/">Services</a>
+                  <Link to='/' className="nav-link active text-light ms-3 me-3" aria-current="page" ><i className="fas fa-tasks"/>Projects
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light ms-3 me-3" href="/">Contact</a>
+                  <Link to='/' className="nav-link active text-light ms-3 me-3" aria-current="page" ><i className="fas fa-phone"/>Contact
+                  </Link>
                 </li>
               </ul>
             </div>
