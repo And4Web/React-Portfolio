@@ -7,13 +7,13 @@ export default function BannerSection() {
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="..." className="d-block w-100" alt="..."/>
+            <img src="1.jpg" className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..."/>
+            <img src="2.jpg" className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..."/>
+            <img src="3.jpg" className="d-block w-100" alt="..."/>
           </div>
         </div>
       </div>      
