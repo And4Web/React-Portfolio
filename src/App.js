@@ -11,20 +11,20 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <div className="container">
         <Router>
-          <Routes>
-            <Route exact path='/' element={<Home/>}/>
-            <Route exact path='/skills' element={<Skills/>}/>
-            <Route exact path='/projects' element={<Projects/>}/>
-            <Route exact path='/services' element={<Services/>}/>
-            <Route exact path='/contact' element={<Contact/>}/>
-            <Route exact path='*' element={<NotFound/>}/>
+          <Header/>
+          <div className="container">
+            <Routes>
+              <Route exact path='/' element={<Home/>}/>
+              <Route exact path='/skills' element={<Skills/>}/>
+              <Route exact path='/projects' element={<Projects/>}/>
+              <Route exact path='/services' element={<Services/>}/>
+              <Route exact path='/contact' element={<Contact/>}/>
+              <Route exact path='*' element={<NotFound/>}/>
 
-          </Routes>
+            </Routes>
+          </div>
         </Router>
-      </div>
       
     </div>
   );
