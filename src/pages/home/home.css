@@ -8,11 +8,17 @@
   /* background-color: blueviolet; */
 }
 .i-left-intro {
+  margin: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+}
+.i-left-intro p {
+  padding: 10px;
+  text-align: justify;
 }
 .left-title {
   font-weight: 300px !important;
@@ -24,7 +30,62 @@
   border-radius: 15px;
   box-shadow: 5px 5px 15px grey;
 }
+.skillSet {
+  margin-top: 20px;
+  height: 50px;
+  overflow: hidden;
+}
+.skillAnime {
+  height: 100%;
+  animation: move 6s ease-in infinite alternate;
+}
+
+@keyframes move {
+  20% {
+    transform: translateY(-50px);
+  }
+  40% {
+    transform: translateY(-100px);
+  }
+  60% {
+    transform: translateY(-150px);
+  }
+  80% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(-250px);
+  }
+}
+
+.skill {
+  height: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(71, 78, 182);
+}
 .i-right {
   flex: 1;
+  position: relative;
+  margin: 0;
+  padding: 0;
   /* background-color: crimson; */
+}
+.banner {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+}
+.banner-bg {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
