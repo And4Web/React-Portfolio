@@ -1,20 +1,20 @@
 import "./App.css";
 import Header from "./components/Header";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Services from "./pages/Services";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
-import Contact from "./pages/Contact";
+import Home from "./pages/home/Home";
+import Services from "./pages/services/Services";
+import Projects from "./pages/projects/Projects";
+import Skills from "./pages/skills/Skills";
+import Contact from "./pages/contact/Contact";
 import NotFound from "./pages/NotFound";
 import bootstrap from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Header />
-        <div className="container">
+        <div>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/skills" element={<Skills />} />

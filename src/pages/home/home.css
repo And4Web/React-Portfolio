@@ -1,0 +1,30 @@
+.intro {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.i-left {
+  flex: 1;
+  /* background-color: blueviolet; */
+}
+.i-left-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.left-title {
+  font-weight: 300px !important;
+}
+.name {
+  font-weight: 500 !important;
+}
+.title-span {
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px grey;
+}
+.i-right {
+  flex: 1;
+  /* background-color: crimson; */
+}
