@@ -21,14 +21,16 @@
   text-align: justify;
 }
 .left-title {
-  font-weight: 300px !important;
+  font-weight: 400 !important;
 }
 .name {
   font-weight: 500 !important;
 }
 .title-span {
-  border-radius: 15px;
-  box-shadow: 5px 5px 15px grey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px grey;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .title-span-p {
   border-radius: 5px;

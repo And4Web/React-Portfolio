@@ -1,6 +1,6 @@
 import React from "react";
 import BannerSection from "../../components/sections/BannerSection";
-import "../home/home.css";
+import "./Intro.css";
 import banner from "../../img/banner.png";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <div className="i-left-intro ">
           <h2 className="left-title display-5">Hello, I am</h2>
           <h1 className="name display-2 ">
-            <span className="bg-secondary text-light p-1 title-span ">
+            <span className="bg-secondary text-light title-span ">
               Anand Shukla
             </span>
           </h1>
