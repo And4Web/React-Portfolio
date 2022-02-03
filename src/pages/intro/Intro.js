@@ -9,11 +9,7 @@ export default function Home() {
       <div className="i-left col-md-6">
         <div className="i-left-intro ">
           <h2 className="left-title display-5">Hello, I am</h2>
-          <h1 className="name display-2 ">
-            <span className="bg-secondary text-light title-span ">
-              Anand Shukla
-            </span>
-          </h1>
+          <h1 className="name display-1 ">Anand Shukla</h1>
           <div className="skillSet">
             <div className="skillAnime">
               <div className="skill">Javascript Full Stack</div>
@@ -25,10 +21,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="i-btn">
-            <button className="btn btn-secondary i-btn-btn">Projects</button>
-            <button className="btn btn-secondary i-btn-btn">Contact</button>
-          </div>
+          <button className="btn btn-secondary i-btn">Projects</button>
+          <button className="btn btn-secondary i-btn">Contact</button>
         </div>
       </div>
       <div className="i-right col-md-6">
