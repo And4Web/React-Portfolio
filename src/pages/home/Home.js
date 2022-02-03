@@ -8,7 +8,7 @@ export default function Home() {
     <div className="intro">
       <div className="i-left col-md-6">
         <div className="i-left-intro ">
-          <h2 className="left-title display-5">Hello, This is</h2>
+          <h2 className="left-title display-5">Hello, I am</h2>
           <h1 className="name display-2 ">
             <span className="bg-secondary text-light p-1 title-span ">
               Anand Shukla
@@ -26,10 +26,13 @@ export default function Home() {
           </div>
           <div className="title-disc">
             <p>
-              I am a Full Stack Javascript Developer. I can create awesome
-              websites using MERN stack or an awesome cross-platform mobile app
-              using React Native, while a Desktop App using Electron JS. Explore
-              my portfolio to know more about my work and skillset.
+              I am a Full Stack Javascript Developer. I create awesome{" "}
+              <span className="title-span-p">Websites</span> using MERN stack,
+              awesome cross-platform{" "}
+              <span className="title-span-p">Mobile Apps</span> using React
+              Native, as well as{" "}
+              <span className="title-span-p">Desktop Apps</span> using Electron
+              JS. Explore my portfolio to know more about my work and skillset.
             </p>
           </div>
         </div>
