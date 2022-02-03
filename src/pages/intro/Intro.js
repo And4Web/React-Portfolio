@@ -35,6 +35,10 @@ export default function Home() {
               JS. Explore my portfolio to know more about my work and skillset.
             </p>
           </div>
+          <div className="i-btn">
+            <button className="btn btn-secondary">Projects</button>
+            <button className="btn btn-secondary">Contact</button>
+          </div>
         </div>
       </div>
       <div className="i-right col-md-6">

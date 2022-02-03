@@ -78,6 +78,17 @@
   align-items: center;
   color: rgb(71, 78, 182);
 }
+.i-btn {
+  display: flex;
+}
+.btn {
+  margin-left: 20px !important;
+  font-size: 25px !important;
+  border-radius: 25px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  box-shadow: 2px 2px 15px grey;
+}
 .i-right {
   flex: 1;
   position: relative;
