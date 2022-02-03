@@ -27,4 +27,34 @@
 }
 .a-right {
   flex: 1;
+  position: relative;
+  /* background-color: turquoise; */
+}
+.a-right-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  /* background-color: yellowgreen; */
+}
+.a-disc {
+  /* background-color: tomato; */
+}
+.a-disc p {
+  text-align: justify;
+  /* background-color: violet; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.a-btn {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 25px;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 2px 2px 15px grey;
 }

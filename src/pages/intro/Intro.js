@@ -24,20 +24,10 @@ export default function Home() {
               <div className="skill">SQL/NoSQL Database</div>
             </div>
           </div>
-          <div className="title-disc">
-            <p>
-              I am a Full Stack Javascript Developer. I create awesome{" "}
-              <span className="title-span-p">Websites</span> using MERN stack,
-              awesome cross-platform{" "}
-              <span className="title-span-p">Mobile Apps</span> using React
-              Native, as well as{" "}
-              <span className="title-span-p">Desktop Apps</span> using Electron
-              JS. Explore my portfolio to know more about my work and skillset.
-            </p>
-          </div>
+
           <div className="i-btn">
-            <button className="btn btn-secondary">Projects</button>
-            <button className="btn btn-secondary">Contact</button>
+            <button className="btn btn-secondary i-btn-btn">Projects</button>
+            <button className="btn btn-secondary i-btn-btn">Contact</button>
           </div>
         </div>
       </div>
