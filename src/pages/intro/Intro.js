@@ -21,9 +21,10 @@ export default function Home() {
             </div>
           </div>
 
-          <button className="btn btn-secondary i-btn">Projects</button>
+          <button className="btn btn-secondary i-btn">Resume</button>
           <button className="btn btn-secondary i-btn">Contact</button>
         </div>
+        <div className="i-left-bg"></div>
       </div>
       <div className="i-right col-md-6">
         <div className="banner-bg"></div>

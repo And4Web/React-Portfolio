@@ -30,4 +30,4 @@ function App() {
 
 export default App;
 
-// start from 24:30 minutes
+// start from 34:00 minutes
