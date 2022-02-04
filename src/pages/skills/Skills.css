@@ -24,9 +24,9 @@
   flex-wrap: wrap;
 }
 .sk-logos-card {
-  margin: 10px;
-  height: 100px;
-  width: 100px;
+  margin: 0.6rem;
+  height: 6.2rem;
+  width: 6.2rem;
   /* background-color: blue; */
   position: relative;
   border: 1px solid grey;
