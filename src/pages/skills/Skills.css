@@ -5,6 +5,38 @@
 }
 .sk-left {
   flex: 1;
+  position: relative;
+}
+.sk-left-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.sk-logos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sk-logos-card {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  /* background-color: blue; */
+  position: relative;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px grey;
+}
+.sk-logo {
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 .sk-right {
   flex: 1;
