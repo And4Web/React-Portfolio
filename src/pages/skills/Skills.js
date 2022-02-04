@@ -19,7 +19,7 @@ export default function Home() {
     <div className="skills">
       <div className="sk-left">
         <div className="sk-left-wrapper">
-          <h1 className="display-1">Skills</h1>
+          <h1 className="display-1 sk-title">Skills</h1>
           <div className="sk-desc">
             <div className="sk-logos">
               <div className="sk-logos-card">
@@ -60,7 +60,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <button className="btn btn-secondary sk-btn">Skills</button>
+          <button className="btn btn-secondary sk-btn">Explore Skills</button>
         </div>
       </div>
       <div className="sk-right">

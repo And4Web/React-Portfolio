@@ -30,6 +30,9 @@
   position: relative;
   /* background-color: turquoise; */
 }
+.a-title {
+  border-bottom: 1px solid grey;
+}
 .a-right-wrapper {
   display: flex;
   flex-direction: column;

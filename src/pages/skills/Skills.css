@@ -7,14 +7,17 @@
   flex: 1;
   position: relative;
 }
+.sk-title {
+  border-bottom: 1px solid grey;
+}
 .sk-left-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 5%;
+  left: 5%;
 }
 .sk-logos {
   display: flex;
@@ -37,6 +40,20 @@
   left: 0;
   height: 100%;
   width: 100%;
+}
+.sk-btn {
+  margin-top: 5% !important;
+  margin-left: 0 !important;
+  font-size: 25px !important;
+  border-radius: 25px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  box-shadow: 1px 1px 5px grey;
+}
+.sk-btn:hover {
+  background-color: whitesmoke !important;
+  color: black !important;
+  border-bottom: 2px solid grey;
 }
 .sk-right {
   flex: 1;
