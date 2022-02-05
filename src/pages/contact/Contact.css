@@ -1,0 +1,14 @@
+.contact {
+  height: 100vh;
+}
+.co-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.co-left {
+  flex: 1;
+}
+
+.co-right {
+  flex: 1;
+}

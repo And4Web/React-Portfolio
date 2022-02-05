@@ -59,10 +59,17 @@
   padding-right: 30px !important;
   box-shadow: 1px 1px 5px grey;
   position: absolute;
-  bottom: 5rem;
+  bottom: 16rem;
 }
 .pr-btn:hover {
   background-color: whitesmoke !important;
   color: black !important;
   border-bottom: 2px solid grey;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  color: black;
 }
