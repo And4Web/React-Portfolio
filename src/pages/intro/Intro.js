@@ -6,9 +6,9 @@ import banner from "../../img/banner.png";
 export default function Home() {
   return (
     <div className="intro">
-      <div className="i-left col-md-6">
+      <div className="i-left">
         <div className="i-left-intro ">
-          <h2 className="left-title display-5">Hello, I am</h2>
+          <h2 className="left-title display-6">Hello, I am</h2>
           <h1 className="name display-1 ">Anand Shukla</h1>
           <div className="skillSet">
             <div className="skillAnime">
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         <div className="i-left-bg"></div>
       </div>
-      <div className="i-right col-md-6">
+      <div className="i-right ">
         <div className="banner-bg"></div>
         <img src={banner} alt="image" className="banner"></img>
       </div>

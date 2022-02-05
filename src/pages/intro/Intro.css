@@ -13,7 +13,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 18%;
+  position: absolute;
+  left: 6rem;
   /* background-color: violet; */
 }
 .i-left-intro p {
