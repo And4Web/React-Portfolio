@@ -18,10 +18,7 @@
   left: 6rem;
   /* background-color: violet; */
 }
-.i-left-intro p {
-  padding: 10px;
-  text-align: justify;
-}
+
 .left-title {
   font-weight: 400 !important;
 }
@@ -125,4 +122,41 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    display: flex;
+    position: relative;
+  }
+  .i-left {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  }
+  .i-left-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    position: absolute;
+    left: 8rem;
+    /* background-color: violet; */
+  }
+
+  .left-title {
+    font-weight: 400 !important;
+  }
+  .name {
+    font-weight: 500 !important;
+    border-bottom: 2px solid black;
+  }
+  .i-right {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+  }
 }
