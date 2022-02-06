@@ -20,9 +20,10 @@ export default function Home() {
               <div className="skill">SQL/NoSQL Database</div>
             </div>
           </div>
-
-          <button className="btn btn-secondary i-btn">Resume</button>
-          <button className="btn btn-secondary i-btn">Contact</button>
+          <div className="intro-btns">
+            <button className="btn btn-secondary i-btn">Resume</button>
+            <button className="btn btn-secondary i-btn">Contact</button>
+          </div>
         </div>
         <div className="i-left-bg"></div>
       </div>
