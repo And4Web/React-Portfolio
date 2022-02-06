@@ -37,11 +37,14 @@ export default function Home() {
       </div>
       <div className="pr-right">
         <div className="pr-bg"></div>
-        <button className="btn btn-secondary pr-btn">
-          <a href="https://github.com/And4Web" className="link" target="_blank">
-            Explore Projects
-          </a>
-        </button>
+        <div className="pr-right-wrapper">
+          <div className="pr-desc">
+            <h2 className="pr-desc-title">Project1</h2>
+            <p className="pr-desc-desc">
+              here goes the article about the project...
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
