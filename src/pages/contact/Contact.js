@@ -7,6 +7,8 @@ import github from "../../img/github.png";
 import twitter from "../../img/twitter.png";
 import facebook from "../../img/facebook.png";
 
+import emailjs from "@emailjs/browser";
+
 export default function Home() {
   const formRef = useRef();
   const formSubmit = (e) => {
@@ -67,7 +69,7 @@ export default function Home() {
           </div>
 
           <form ref={formRef} onSubmit={formSubmit}>
-            <input type="text" placeholder="Your name" name="user_name" />
+            <input type="text" placeholder="Your full name" name="user_name" />
             <input type="text" placeholder="Your email" name="use_email" />
             <input type="text" placeholder="Subject" name="user_subject" />
             <textarea rows="6" placeholder="Your message" />
