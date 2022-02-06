@@ -2,6 +2,10 @@ import React from "react";
 import "./Contact.css";
 import phone from "../../img/phone.png";
 import email from "../../img/email.png";
+import linkedin from "../../img/linkedin.png";
+import github from "../../img/github.png";
+import twitter from "../../img/twitter.png";
+import facebook from "../../img/facebook.png";
 
 export default function Home() {
   return (
@@ -16,15 +20,44 @@ export default function Home() {
                 <img src={phone} alt="" className="co-info-img" />
                 <p className="info-data">+91 8787276894</p>
               </div>
-              <div className="co-info-email">
+              <p
+                style={{
+                  marginTop: 50,
+                  textAlign: "center",
+                  fontSize: 25,
+                  fontWeight: 200,
+                }}
+              >
+                My social links
+              </p>
+
+              <div className="social">
                 <img src={email} alt="" className="co-info-img" />
-                <p className="info-data">andpmedia1@gmail.com</p>
+                <img src={linkedin} alt="" className="co-info-img"></img>
+                <img src={github} alt="" className="co-info-img"></img>
+                <img src={twitter} alt="" className="co-info-img"></img>
+                <img src={facebook} alt="" className="co-info-img"></img>
               </div>
             </div>
           </div>
         </div>
+
         <div className="co-right">
-          <h1>right</h1>
+          <div className="co-right-desc">
+            <h3>What's your Project? </h3>
+            <p>
+              Let's talk about it and see how to work on it. You can hire me as
+              yout Web/Mobile App Development expert. Message me here:
+            </p>
+          </div>
+
+          <form>
+            <input type="text" placeholder="Your name" name="user_name" />
+            <input type="text" placeholder="Your email" name="use_email" />
+            <input type="text" placeholder="Subject" name="user_subject" />
+            <textarea rows="6" placeholder="Your message" />
+            <button>Submit</button>
+          </form>
         </div>
       </div>
     </div>

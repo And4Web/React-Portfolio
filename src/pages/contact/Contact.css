@@ -35,30 +35,35 @@
 .co-title {
   position: absolute;
   top: 20%;
+  border-bottom: 1px solid black;
 }
 .co-info {
   display: flex;
   flex-direction: column;
   position: absolute;
+  top: 35%;
+  /* background-color: blue; */
 }
 .co-info-phone {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
-.co-info-email {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+
 .co-info-img {
   height: 3rem;
   width: 3rem;
+  margin: 0 0.4rem;
 }
 .info-data {
   margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   /* background-color: blue; */
+}
+.social {
+  margin-top: 0.5rem;
 }
 .co-right {
   flex: 1;
