@@ -24,7 +24,7 @@ export default function Home() {
             <h1 className="display-1 co-title">Let's discuss</h1>
             <div className="co-info">
               <div className="co-info-phone">
-                <img src={phone} alt="" className="co-info-img" />
+                <i className=" text-dark display-6 fa-brands fa-whatsapp"></i>
                 <p className="info-data">+91 8787276894</p>
               </div>
               <p
@@ -39,20 +39,20 @@ export default function Home() {
               </p>
 
               <div className="social">
-                <a href="" target="blank">
-                  <img src={email} alt="" className="co-info-img" />
-                </a>
+                {/* <a href="" target="blank">
+                  <i className="me-3 text-Primary display-6 fa-solid fa-at"></i>
+                </a> */}
                 <a href="https://www.linkedin.com/in/and4web/" target="blank">
-                  <img src={linkedin} alt="" className="co-info-img" />
+                  <i className="me-3 text-dark display-6 fa-brands fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/And4Web" target="blank">
-                  <img src={github} alt="" className="co-info-img" />
+                  <i className="me-3 text-dark display-6 fa-brands fa-github"></i>
                 </a>
                 <a href="https://twitter.com/And4Web" target="blank">
-                  <img src={twitter} alt="" className="co-info-img" />
+                  <i className="me-3 text-primary display-6 fa-brands fa-twitter"></i>
                 </a>
                 <a href="https://www.facebook.com/And4Web/" target="blank">
-                  <img src={facebook} alt="" className="co-info-img" />
+                  <i className="me-3 text-primary display-6 fa-brands fa-facebook-square"></i>
                 </a>
               </div>
             </div>

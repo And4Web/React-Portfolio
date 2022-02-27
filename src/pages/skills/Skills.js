@@ -12,6 +12,7 @@ import sass from "../../img/sass.png";
 import bs from "../../img/bs.png";
 import rnative from "../../img/rnative.png";
 import postgre from "../../img/postgre.png";
+import mysql from "../../img/mysql.png";
 import next from "../../img/next.png";
 
 export default function Home() {
@@ -54,6 +55,9 @@ export default function Home() {
               </div>
               <div className="sk-logos-card">
                 <img src={mongo} alt="" className="sk-logo" />
+              </div>
+              <div className="sk-logos-card">
+                <img src={mysql} alt="" className="sk-logo" />
               </div>
               <div className="sk-logos-card">
                 <img src={postgre} alt="" className="sk-logo" />
