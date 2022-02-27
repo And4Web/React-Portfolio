@@ -15,7 +15,7 @@ import postgre from "../../img/postgre.png";
 import mysql from "../../img/mysql.png";
 import next from "../../img/next.png";
 
-export default function Home() {
+export default function Skills() {
   return (
     <div className="skills">
       <div className="sk-left">

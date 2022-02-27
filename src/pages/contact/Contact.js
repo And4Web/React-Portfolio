@@ -9,7 +9,7 @@ import facebook from "../../img/facebook.png";
 
 import emailjs from "@emailjs/browser";
 
-export default function Home() {
+export default function Contact() {
   const formRef = useRef();
   const formSubmit = (e) => {
     e.preventDefault();

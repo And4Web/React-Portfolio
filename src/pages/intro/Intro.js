@@ -3,7 +3,7 @@ import BannerSection from "../../components/sections/BannerSection";
 import "./Intro.css";
 import banner from "../../img/banner.png";
 
-export default function Home() {
+export default function Intro() {
   return (
     <div className="intro">
       <div className="i-left">
