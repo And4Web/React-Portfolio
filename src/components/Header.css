@@ -3,20 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background: transparent;
+  z-index: 10;
+  position: fixed;  
+  width: 60%;
+  
 }
-
-.header .logo {
-  font-size: 1.5rem;
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.brand-logo{
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
   font-weight: bolder;
-}
-a .logo:hover {
-  scale: transform(1.5rem);
-  color: whitesmoke;
+  margin-right: 1.5rem;
 }
 
-.menu {
-  color: whitesmoke;
+.menu-item{
+  text-decoration: none;
+  color: black;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+  
+  padding-bottom: 1rem;
+  
+}
+.menu-item:hover{
+  border-bottom: 2px solid black;
+  color: black;
 }
