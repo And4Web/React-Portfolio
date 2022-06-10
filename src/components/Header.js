@@ -1,22 +1,33 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
-  let [dropDown, setDropDown] = useState(false);
+  let [dropDown, setDropDown] = useState(true);
+  let [dynamicClass, setDynamicClass] = useState("");
+  let [scrollPos, setScrollPos] = useState(0);
 
   function toggleDropDown() {
+    // console.log("clicked!");
     setDropDown(!dropDown);
+    // console.log("dropDown: ", dropDown);
+    if (dropDown === false) {
+      setDynamicClass("active");
+    } else {
+      setDynamicClass(null);
+    }
+    // console.log("dynamicClass: ", dynamicClass);
+    console.log(window.pageYOffset);
   }
 
   return (
-    <div className="header">
+    <header className="header">
       <nav className="navbar">
         <div className="container">
           <Link to="/" className="brand-logo" href="/">
             <i class="fa-solid fa-laptop"></i>
           </Link>
-          <div className="menubar active">
+          <div className={`menubar ${dynamicClass}`}>
             {/* <Link to="/home" className="menu-item">
               Home
             </Link> */}
@@ -30,6 +41,7 @@ function Header() {
               Contact
             </Link>
           </div>
+
           <i
             class="fa-solid fa-bars"
             id="dropdown-icon"
@@ -37,7 +49,7 @@ function Header() {
           ></i>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }
 export default Header;
