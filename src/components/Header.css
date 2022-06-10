@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 .header {
-  background: transparent;
+  /* background-image: linear-gradient(to left, #fbc2eb 0%, #a18cd1 100%);   */
   z-index: 10;
   position: fixed;  
-  width: 60%;
+  width: 100%;
   
 }
 .container{
@@ -32,7 +32,8 @@
   
 }
 .menu-item:hover{
-  border-bottom: 2px solid rgb(81, 78, 78);
+  border-bottom: 3.5px solid rgb(81, 78, 78);
+  
   color: black;
 }
 .header #dropdown-icon{
@@ -41,7 +42,15 @@
   border: .1rem solid white;
   border-radius: .5rem;
   cursor: pointer;
-  /* display: none; */
+  display: none;
+}
+.header .darkMode-icon{
+  
+  font-size: 2rem;
+  padding: .5rem;
+  border: .1rem solid white;
+  border-radius: .5rem;
+  cursor: pointer;
 }
 
 @media (max-width: 760px){

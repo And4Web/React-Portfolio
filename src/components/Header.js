@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
-  let [dropDown, setDropDown] = useState(true);
+  let [dropDown, setDropDown] = useState(false);
   let [dynamicClass, setDynamicClass] = useState("");
+  let [darkMode, setDarkMode] = useState(true);
   let [scrollPos, setScrollPos] = useState(0);
 
   function toggleDropDown() {
@@ -17,7 +18,12 @@ function Header() {
       setDynamicClass(null);
     }
     // console.log("dynamicClass: ", dynamicClass);
-    console.log(window.pageYOffset);
+    // console.log(window.pageYOffset);
+  }
+
+  function toggleDarkMode() {
+    setDarkMode(!darkMode);
+    console.log(darkMode);
   }
 
   return (
@@ -43,13 +49,26 @@ function Header() {
           </div>
 
           <i
-            class="fa-solid fa-bars"
+            className="fa-solid fa-bars"
             id="dropdown-icon"
             onClick={toggleDropDown}
           ></i>
+
+          {darkMode ? (
+            <i
+              class="fa-solid fa-sun darkMode-icon"
+              onClick={toggleDarkMode}
+            ></i>
+          ) : (
+            <i
+              class="fa-solid fa-moon darkMode-icon"
+              onClick={toggleDarkMode}
+            ></i>
+          )}
         </div>
       </nav>
     </header>
   );
 }
 export default Header;
+// fa-solid fa-sun-bright
